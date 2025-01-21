@@ -16,7 +16,9 @@ setup(
     ],
     install_requires=[
         'einops>=0.3',
-        'torch>=1.6'
+        'torch>=1.6',
+        'simplejson',
+        'fvcore'
     ],
     extras_require={"tensorboard_video_visualization": ["moviepy"]},
     packages=find_packages(exclude=("configs", "tests")),
